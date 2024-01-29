@@ -1,0 +1,7 @@
+django
+djangorestframework
+djoser
+django-split-settings
+pyyaml
+uritemplate
+httpx

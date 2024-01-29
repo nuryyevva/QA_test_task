@@ -1,0 +1,12 @@
+WSGI_APPLICATION = "send_data.wsgi.application"
+LANGUAGE_CODE = "en-us"
+TIME_ZONE = "UTC"
+USE_I18N = True
+USE_L10N = True
+USE_TZ = True
+STATIC_URL = "/static/"
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+AUTH_USER_MODEL = "users.User"
+SECRET_KEY = "django-insecure-(b7n51h-j3f*g5fmin-=kxd8$wt7o_v*6$#g0h2xzx9x6cu@5l"
+DEBUG = True
+ROOT_URLCONF = "send_data.urls"
